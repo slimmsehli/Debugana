@@ -1,0 +1,175 @@
+$date
+	Sun Dec 14 15:55:59 2025
+$end
+
+$version
+	Synopsys VCS version X-2025.06_Full64
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 c20b2c9b5f85e292 $end
+
+
+$scope module tb $end
+$var reg 1 ! clk $end
+
+$scope begin unnamed$$_vcs_1 $end
+$upscope $end
+
+
+$scope begin unnamed$$_vcs_0 $end
+$upscope $end
+
+
+$scope module dut_if_inst $end
+$var reg 1 " clk $end
+$var reg 1 # rst_n $end
+$var reg 1 $ enable $end
+$var reg 4 % count [3:0] $end
+$upscope $end
+
+
+$scope module u_dut $end
+$var reg 1 & clk $end
+$var reg 1 ' rst_n $end
+$var reg 1 ( enable $end
+$var reg 4 ) count [3:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+b0000 %
+b0000 )
+0"
+0&
+0'
+0(
+0$
+0#
+$end
+#5
+1!
+1"
+1&
+#10
+0!
+0"
+0&
+#15
+1!
+1"
+1&
+1#
+1'
+1$
+1(
+b0001 )
+b0001 %
+#20
+0!
+0"
+0&
+#25
+1!
+1"
+1&
+b0010 )
+b0010 %
+#30
+0!
+0"
+0&
+#35
+1!
+1"
+1&
+b0011 )
+b0011 %
+#40
+0!
+0"
+0&
+#45
+1!
+1"
+1&
+b0100 )
+b0100 %
+#50
+0!
+0"
+0&
+#55
+1!
+1"
+1&
+b0101 )
+b0101 %
+#60
+0!
+0"
+0&
+#65
+1!
+1"
+1&
+b0110 )
+b0110 %
+#70
+0!
+0"
+0&
+#75
+1!
+1"
+1&
+b0111 )
+b0111 %
+#80
+0!
+0"
+0&
+#85
+1!
+1"
+1&
+b1000 )
+b1000 %
+#90
+0!
+0"
+0&
+#95
+1!
+1"
+1&
+b1001 )
+b1001 %
+#100
+0!
+0"
+0&
+#105
+1!
+1"
+1&
+b1010 )
+b1010 %
+#110
+0!
+0"
+0&
+#115
+1!
+1"
+1&
+b1011 )
+b1011 %

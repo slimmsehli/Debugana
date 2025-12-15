@@ -1,0 +1,13 @@
+iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out
+
+
+git config --global user.name "slim msehli"
+git config --global user.email "dmsehli@gmail.com"
+
+
+ssh-keygen
+ssh-add $HOME/.ssh/mykey
+
+Set-Service ssh-agent -StartupType Automatic
+Start-Service ssh-agent
+Get-Service ssh-agent

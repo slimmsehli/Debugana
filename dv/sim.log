@@ -1,0 +1,18 @@
+UVM_INFO @ 0: reporter [RNTST] Running test simple_test...
+UVM_INFO top.sv(55) @ 0: uvm_test_top.env.drv [DRV] Starting stimulus
+UVM_INFO top.sv(136) @ 0: uvm_test_top [TEST] Test started
+UVM_INFO top.sv(91) @ 5: uvm_test_top.env.mon [MON] Observed count = 0
+UVM_INFO top.sv(62) @ 15: uvm_test_top.env.drv [DRV] Reset deasserted
+UVM_INFO top.sv(91) @ 15: uvm_test_top.env.mon [MON] Observed count = 0
+UVM_INFO top.sv(91) @ 25: uvm_test_top.env.mon [MON] Observed count = 0
+UVM_INFO top.sv(91) @ 35: uvm_test_top.env.mon [MON] Observed count = 1
+UVM_INFO top.sv(91) @ 45: uvm_test_top.env.mon [MON] Observed count = 2
+UVM_INFO top.sv(91) @ 55: uvm_test_top.env.mon [MON] Observed count = 3
+UVM_INFO top.sv(67) @ 65: uvm_test_top.env.drv [DRV] Stimulus completed
+UVM_INFO top.sv(91) @ 65: uvm_test_top.env.mon [MON] Observed count = 4
+UVM_INFO top.sv(91) @ 75: uvm_test_top.env.mon [MON] Observed count = 5
+UVM_INFO top.sv(91) @ 85: uvm_test_top.env.mon [MON] Observed count = 6
+UVM_INFO top.sv(91) @ 95: uvm_test_top.env.mon [MON] Observed count = 7
+UVM_ERROR top.sv(142) @ 100: uvm_test_top [TEST] Expected count=10, got 8
+UVM_INFO top.sv(147) @ 100: uvm_test_top [TEST] Test finished
+UVM_INFO /global/apps/vcs_2025.06/etc/uvm/base/uvm_objection.svh(1274) @ 100: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase

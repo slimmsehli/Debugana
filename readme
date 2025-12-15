@@ -1,0 +1,8 @@
+
+
+ssh-keygen
+ssh-add $HOME/.ssh/mykey
+
+Set-Service ssh-agent -StartupType Automatic
+Start-Service ssh-agent
+Get-Service ssh-agent
